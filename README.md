@@ -46,6 +46,13 @@ sudo dd if=boot.img of=/dev/sdX bs=4M oflag=direct status=progress
 
 Replace `/dev/sdX` with the actual device path you found in step 2.
 
+### 5. Boot from the USB drive:
+
+Boot from the USB drive via the Boot Manager. Once it loads, double-click the icon on the desktop that matches
+your layout:
+- ISO (UK, DE, FR, ES, ND)
+- ANSI (US)
+
 ## Important Warnings:
 
 - Ensure you have selected the correct USB device path, as the `dd` command will erase all data on the selected drive.
